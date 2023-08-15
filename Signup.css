@@ -1,0 +1,193 @@
+.register{
+    background-color: azure;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.regContainer{
+    flex-direction: column;
+    border: 1px  solid  white;
+    border-radius: 8px;
+    box-shadow: 0  2px  4px  black,0  8px  16px black;
+    height: fit-content;
+    width: 436px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.regContainer > h3 {
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr3{
+    margin-top: 0  !important;
+    border-bottom: 1px  solid  whitesmoke  !important;
+    margin-bottom: 20px;
+}
+.regContainer > h1{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.row input{
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 0.5px  solid  gray;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    border: 1px  solid  whitesmoke;
+    color: black;
+    line-height: 18px;
+    font-size: 17px;
+    vertical-align: middle;
+    width: 185px;
+}
+.regContainer > p{
+    font-size: 16px;
+    color: rgb(186, 182, 182);
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.center > input {
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 0.5px  solid  rgb(167, 164, 164);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    border: 1px  solid  white;
+    color: black;
+    line-height: 17px;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 97%;
+    margin-left: 10px;
+}
+.center > input::-webkit-input-placeholder{
+    font-size: 17px;
+    color: rgb(188, 186, 186);
+    padding-left: 0px;
+}
+.regRegister{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    font-weight: bold;
+    justify-content: center;
+    background-color: rgb(54, 151, 54);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0  17px;
+    width: 55%;
+    height: 45px;
+    margin-bottom: 20px;
+    color: azure;
+}
+.regDate2{
+    margin-left: -71px;
+    margin-right: 10px  !important;
+    height: 40px;
+    border: 1px  solid  whitesmoke;
+    width: 130px;
+    outline: rgb(223, 221, 221);
+    border-radius: 5px;
+    margin-top: 40px;
+    float: left;
+}
+.regDate3{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    height: 40px;
+    width: 130px;
+    border: 1px  solid  white;
+    outline: rgb(219, 218, 218);
+    border-radius: 5px;
+    margin-top: 40px;
+    float: left;
+}
+.regDate,.regGender{
+    font-size: 12px;
+    color: rgb(163, 160, 160);
+    font-weight: 400;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.regRadioContainer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-right: -400px;
+}
+.wrapper{
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px  solid  gray;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.wrapper label{
+    margin-right: 45px;
+}
+.wrapper input{
+    margin-top: 5px;
+}
+.regPolicy{
+    font-size: 12px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.size{
+    margin-left: 6px;
+}
+.regPolicy span{
+    color: rgb(95, 95, 239);
+}
+.RegLogIn{
+    color: rgb(43, 103, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(1, 64, 64);
+}
+.warning{
+    padding: -1px  5px  7px;
+    font-size: smaller;
+    color: red;
+    margin-right: 260px;
+    margin-top: -6px;
+}
